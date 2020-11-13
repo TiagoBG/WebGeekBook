@@ -1,0 +1,160 @@
+.block {
+    display: block;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+.inline {
+    display: inline;
+    border: 2px solid blue;
+    /*height: 100px;
+    width: 100px;*/
+    /*Estas no fueron reconocidas*/
+}
+
+.inline-block {
+    display: inline-block;
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+}
+
+.none {
+    display: none;
+    border: 2px solid violet;
+    height: 100px;
+    width: 100px;
+}
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.container {
+    border: 1px solid deeppink;
+}
+
+.col {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.container--1 {
+    height: 100px;
+    width: 200px;
+    /* Añadir propiedad overflow */
+    overflow: hidden;
+}
+
+.container--2 {
+    height: 200px;
+    /* Añadir propiedad overflow */
+    overflow: auto;
+}
+
+
+/*ejercicio7*/
+
+body {
+    font-family: Arial, Helvetica, san-serif;
+    padding: 16px;
+}
+
+.page-title {
+    margin: 0;
+}
+
+.main {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.user-info {
+    width: 300px;
+    padding: 8px 16px;
+    margin: 16px;
+    border-left: 3px solid #f93af9;
+    background-color: #f3f3f3;
+    /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR POR QUE PASA
+     **/
+    display: inline;
+    /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    display: inline-block;
+    /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    text-align: center;
+}
+
+.user-info * {
+    display: inline;
+}
+
+.user-info__name {
+    margin: 8px 0;
+}
+
+.user-info__mail {
+    display: inline-block;
+    max-width: 284px;
+    padding: 4px;
+    margin-bottom: 8px;
+    background-color: #d4d4d4;
+    color: #f93af9;
+    text-decoration: none;
+    font-weight: bold;
+    /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    overflow-x: scroll;
+    /* DESCOMENTAR LAS SIGUIENTES LINEAS
+     * Y OBSERVAR QUE PASA
+     **/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/*ejercicio 11*/
+
+body {
+    margin: 10px 30px;
+}
+
+.col-11 {
+    display: inline-block;
+    width: 140px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.box {
+    border: 1px solid deeppink;
+    width: 130px;
+    height: 130px;
+}
+
+.box--1 {
+    background-color: cyan;
+}
+
+.box--2 {
+    background-image: url(https://www.fillmurray.com/130/130);
+}
+
+.box--3 {
+    background: url(https://www.fillmurray.com/110/110) center no-repeat cyan;
+}

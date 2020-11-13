@@ -1,0 +1,52 @@
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerH {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 500px;
+    border: 2px solid green;
+}
+
+.containerV {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border: 2px solid green;
+}
+
+.cont-element {
+    border: 2px solid blue;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-flow: wrap;
+    border: 2px solid violet;
+    width: 1200px;
+}
+
+.flexbox2 img {
+    height: 100px;
+    width: 200px;
+}
+
+.menu {
+    height: 100px;
+    border: 2px solid violet;
+    justify-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu li {
+    text-align: center;
+    align-items: center;
+    margin: 40px 20px;
+}
