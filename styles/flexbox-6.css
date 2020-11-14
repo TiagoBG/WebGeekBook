@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+.header {
+    background-color: coral;
+    border: 2px solid coral;
+}
+
+.aside-1 {
+    background-color: yellow;
+    border: 2px solid yellow;
+    flex-grow: 2;
+}
+
+.main {
+    display: flex;
+    flex-flow: row;
+    height: 75vh;
+}
+
+.central {
+    background-color: cyan;
+    border: 2px solid cyan;
+}
+
+.aside-2 {
+    background-color: pink;
+    border: 2px solid pink;
+    flex-grow: 2;
+}
+
+.footer {
+    background-color: limegreen;
+    border: 2px solid limegreen;
+}
+
+.aside-1,
+.aside-2 {
+    width: 40vw;
+}
