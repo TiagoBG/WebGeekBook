@@ -1,0 +1,61 @@
+body {
+    background-color: lightgray;
+}
+
+.header {
+    background-color: lawngreen;
+}
+
+.header .nav {
+    list-style: none;
+    left: 0;
+}
+
+.header h1 {
+    background-color: lightgrey;
+}
+
+.main {
+    background-color: yellow;
+}
+
+.aside {
+    background-color: gray;
+}
+
+@media (min-width: 480px) {
+    body {
+        display: flex;
+        flex-flow: row;
+    }
+    .header {
+        width: 30vw;
+        margin-right: 5vw;
+    }
+    .nav li {
+        margin-left: 0;
+    }
+    .header .nav {
+        left: 0;
+    }
+    main {
+        margin-top: 12vh;
+    }
+    .main {
+        margin-bottom: 0;
+    }
+    .aside {
+        margin-top: 0;
+    }
+}
+
+@media(min-width:1000px) {
+    main {
+        display: flex;
+        flex-flow: row;
+        margin-top: 8.5vh;
+    }
+    .aside {
+        margin-left: 3vw;
+    }
+}
